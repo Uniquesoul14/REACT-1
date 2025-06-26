@@ -5,7 +5,9 @@
 A simple and clean Product Card UI built with React JS, featuring a basic Navbar, Footer, and a responsive Card Component. The card displays a product image, caption, description, and includes two functional buttons — Add to Cart and Add to Wishlist.
 
 This project demonstrates the use of React Components, import/export structure, and basic styling techniques to create a clean product showcase layout.
-<h2>🎬 Demo Video</h2>
+<h2>🎬 Project Explanation Video</h2>
+
+https://drive.google.com/file/d/1x6KfJt13mavZe1Pdt11CNzVUB82UAC1Y/view?usp=sharing
 
 <h2>📸 Features</h2>
 🧩 Modular React component architecture<br>
