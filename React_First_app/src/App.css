@@ -1,0 +1,17 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.appDiv{
+    height: auto;
+    width: 50vw;
+
+}
+.userCardDiv{
+    padding: 50px;
+    border: 1px solid black;
+    margin: 10px 0px;
+}
