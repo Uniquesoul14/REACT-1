@@ -1,72 +1,81 @@
-## Counter App 2.0
+<h1>🔢 React Counter App</h1>
+A simple and dynamic React Counter App built using functional components and state management with hooks. This project features:
 
-Counter App which shows if the current number is "Even" or "Odd" and if its a Prime Number or Not.
-
-## Tags
-
-react, useState, conditional rendering, cssmodules
-
-## Submission Instructions [Please note]
-
-## Maximum Marks - 10
-
-- The Submission should not contain spaces, for example /js-101 folder/eval will not work
-- Do not push node_modules and package_lock.json to github
-
-```
- ✅ able to make submission - 1 mark(default)
- ✅ should render App and have basic structure - 1 mark
- ✅ counter should have initial value 0- 1 mark
- ✅ should have a disabled -1 button -  1 marks
- ✅ should decrement counter by 1 - 1mar
- ✅ should increment counter by 1 -  1 marks
- ✅ should display if the number is even or odd-  1 marks
- ✅ should display if the number is prime-  2 marks
- ✅ should reset counter to 0- 1 mark
+<h2>Explained video of the PROJECT</h2>
+https://drive.google.com/file/d/1sFMDOQa_2f4E3Ddr7ttC5f3CWgjcOur1/view?usp=sharing
 
 
-```
+<h2>✅ Increment and Decrement functionality</h2><br>
 
-## Installation
+<h2>🔁 Reset button to reset counter</h2><br>
 
-- Use node version >=14 and <=16
-- please make sure you do not push package-lock.json
-- Download and unzip the boilerplate
-- Navigate to the correct path
-- Run **npm install** to install the node modules
-- Run **npm test** for the test cases.
+<h2>🧮 Conditional rendering to check:</h2><br>
 
-## Screenshot of the Application:
+-Whether the number is Prime<br>
 
-<img width="1330" alt="Screenshot 2022-07-01 at 7 47 19 PM" src="https://user-images.githubusercontent.com/86409991/176912347-0b8ec838-9fa3-486b-97f2-7f212e11f8b7.png">
+-Whether the number is Even or Odd<br>
 
-## Features to build
+<h2>⚛️ Clean UI and fully dynamic behavior using React State</h2>
 
-1. The Application should have a `counter` with initial value set to `0`.
+<h2>🛠️ Features</h2>
+➕ Increment Counter<br>
 
-   - A `span` with `data-testid="counter` already exists in the boilerplate.
+➖ Decrement Counter<br>
 
-2. The Application should have three buttons
+🔄 Reset to Zero<br>
 
-   - All three buttons are already in the boilerplate with the following `data-testid`
-   - `plusonebtn`: This button should increment the count by one.
-   - `minusonebtn`: This button should decrement the count by one. This button should be disabled if the count is equal to zero.
-   - `resetbtn`: This button should reset te counter to zero.
+🔍 Prime Number Checker<br>
 
-3. The Application should display if the number is `odd-or-even`.
+⚖️ Even or Odd Number Display<br>
 
-   - a span with `data-testid="odd-or-even"` is already present in the boilerplate. The span should display `Even` or `Odd` depending on the counter value.
-   - These texts are case sensitive so be sure to cross check.
+⚛️ Built using React Hooks (useState, useEffect)<br>
 
-4. The Application should display if the number is `Prime` or Not.
-   - a span with `data-testid="is-prime"` is already present in the boilerplate. The span should display `true` or `false` depending on the counter value.
-   - **NOTE:** 0 and 1 are not Prime numbers.
-   - These texts are case sensitive so be sure to cross check.
+💡 Simple, clean and minimal UI
 
-## General Instructions (**_IMPORTANT_**)
+<h2>📂 Folder Structure</h2>
 
-1. Do not use Global CSS, instead use `<componentName>.module.css` convention for Css in that file.
-2. Do Not Remove `data-testid="xxxx"` or `data-cy="xxxx"` from anywhere, this are used by testing tools to test your code, removal of this will lead to low score.
-3. Make sure you use only the given components and dont create new files and folders as changing component name, structures might result in giving you zero marks.
+counter-app/<br>
+├── public/<br>
+│   └── index.html<br>
+├── src/<br>
+│   ├── components/<br>
+│   │   └── Counter.jsx<br>
+│   ├── App.js<br>
+│   ├── index.js<br>
+│   └── App.css<br>
+├── package.json<br>
+└── README.md<br>
 
-#### General guidelines
+<h2>📌 Usage</h2>
+Click on Increment to increase the number.<br>
+
+Click Decrement to decrease.<br>
+
+Reset sets the count back to 0.<br>
+
+Watch the app dynamically tell if the number is:<br>
+
+Prime or Not<br>
+
+Even or Odd<br>
+
+<h2>🧠 Logic Highlights</h2>
+Prime Checking Algorithm: Optimized up to √n<br>
+
+Even/Odd Check: Simple modulo operation<br>
+
+
+Conditional Rendering: Inline JSX conditions and ternary operators<br>
+
+
+<h2>💻 Tech Stack</h2>
+React JS (Functional Components)<br>
+
+JavaScript (ES6+)<br>
+
+HTML5 & CSS3 (for UI styling)
+
+<h2>📫 Contact</h2>
+For questions, feedback or collaboration:
+
+📧 8391soumyanayk@gmail.com
