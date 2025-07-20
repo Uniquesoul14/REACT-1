@@ -2,8 +2,10 @@
 
 🎓 Student Registration Form – React Project
 This is a fully dynamic Student Registration Form built using ReactJS, implementing Form Validation with Yup, form handling through Formik, and real-time console logging of submitted data for development and debugging purposes.
+<h1>Explanation Video</h1>
+https://drive.google.com/file/d/1ks68GpUp3BoivU2UXniT_FrlsnzWg8Fi/view?usp=sharing
 
-📋 Features
+<h2></h2>
 ✅ Form Validation using Yup
 Ensures that all fields (like name, email, phone, etc.) meet the required format and criteria before submission.
 
@@ -19,7 +21,7 @@ On form submission, all entered and validated data is logged inside the browser 
 🧪 Reusable Components
 Structured using React component-based architecture for modularity and maintainability.
 
-🛠️ Tech Stack
+<h2>🛠️ Tech Stack</h2>
 ReactJS – Frontend Framework
 
 Formik – Form state management
@@ -30,6 +32,6 @@ JavaScript (ES6+)
 
 HTML5 / CSS3
 
-📩 Contact
+<h2>📩 Contact</h2>
 For any queries or contributions:
 📧8391soumyanayak@gmail.com
