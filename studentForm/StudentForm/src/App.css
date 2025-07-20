@@ -1,0 +1,101 @@
+.container {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+ left: 50%;
+
+
+}
+body {
+  background-color:yellowgreen;
+}
+.form {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input {
+  background-color: whitesmoke;
+}
+h1 {
+  
+  position: absolute;
+  top: 5%;
+  left: 37%;
+  color: #161616;
+  font-size: 35px;
+  margin-top: 3%;
+  margin-left: 3%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: whitesmoke;
+  color: grey;
+}
+
+input:focus,
+select:focus {
+  border-color: #111519;
+}
+
+h3 {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+}
+
+label {
+  font-weight: 500;
+}
+
+.gender-group {
+  display: flex;
+  gap: 7px;
+}
+
+.gender-group label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: grey;
+}
+
+button {
+  background-color:yellowgreen;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 4%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color:greenyellow;
+  transform: scale(1.02);
+}
+
+p {
+  color: red;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
