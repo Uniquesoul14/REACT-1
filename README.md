@@ -5,7 +5,7 @@ This is a fully dynamic Student Registration Form built using ReactJS, implement
 <h1>Explanation Video</h1>
 https://drive.google.com/file/d/1ks68GpUp3BoivU2UXniT_FrlsnzWg8Fi/view?usp=sharing
 
-<h2></h2>
+<h2>Features</h2>
 ✅ Form Validation using Yup
 Ensures that all fields (like name, email, phone, etc.) meet the required format and criteria before submission.
 
